@@ -102,7 +102,6 @@ C:\Users\Maksim\Source\Repos\Cinema\obj\Debug\Kinoteatr_bilet.pdb
 C:\Users\Maksim\Desktop\Cinema\bin\Debug\Kinoteatr_bilet.exe.config
 C:\Users\Maksim\Desktop\Cinema\bin\Debug\Kinoteatr_bilet.exe
 C:\Users\Maksim\Desktop\Cinema\bin\Debug\Kinoteatr_bilet.pdb
-C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.csprojAssemblyReference.cache
 C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Afisha.resources
 C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Menu.resources
 C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Properties.Resources.resources
@@ -112,3 +111,16 @@ C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.csproj.GenerateResource
 C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.csproj.CoreCompileInputs.cache
 C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.exe
 C:\Users\Maksim\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.pdb
+C:\Users\opilane\Desktop\Cinema\bin\Debug\Kinoteatr_bilet.exe.config
+C:\Users\opilane\Desktop\Cinema\bin\Debug\Kinoteatr_bilet.exe
+C:\Users\opilane\Desktop\Cinema\bin\Debug\Kinoteatr_bilet.pdb
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.csproj.AssemblyReference.cache
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Afisha.resources
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Menu.resources
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Properties.Resources.resources
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Zal_form.resources
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.Zal_vaata.resources
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.csproj.GenerateResource.cache
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.exe
+C:\Users\opilane\Desktop\Cinema\obj\Debug\Kinoteatr_bilet.pdb

@@ -29,6 +29,7 @@ namespace Kinoteatr_bilet
         static List<Pilet> piletid;
         int k, r;
         static string[] read_kohad;
+        private string text;
 
         public Zal_vaata()//пустая форма
         { }
@@ -121,22 +122,15 @@ namespace Kinoteatr_bilet
             string pocta = Interaction.InputBox("Email", "Email");
 
 
-            if (pocta !="")
+            MailMessage message = new MailMessage();
+            if (pocta.EndsWith("@gmail.com") || pocta.EndsWith("@mail.ru") || pocta.EndsWith("@bk.ru") || pocta.EndsWith("@list.ru") || pocta.EndsWith("@tthk.ee"))
             {
-                var filmivaata = File.ReadLines(@"..\..\zapisfilma\Film.txt").Last();
-
-                string text = "Cinema: 'Cinamon Kosmos'\nFilm was: " + filmivaata;
-                foreach (var item in piletid)
-                {
-                    text += "\n" + "Row: " + item.Rida + " Place: " + item.Koht;
-                }
-                text += "\nThank you for choosing us!\nGood watching!\nLagunovski Maksim";
-                MailMessage message = new MailMessage();
+                text += "\n\nTäname, et valisite meid!\nHead vaatamist!\nMaksim Lagunovski";
                 message.To.Add(new MailAddress(pocta));
                 message.From = new MailAddress(pocta);
-                message.Subject = "Bought tickets";
+                message.Subject = "Ostetud piletid";
                 message.Body = text;
-                string email = "programmeeriminetthk@gmail.com";
+                string email = "programmeeriminetthk2@gmail.com";
                 string password = "2.kuursus tarpv20";
                 SmtpClient client = new SmtpClient("smtp.gmail.com")
                 {
@@ -147,11 +141,14 @@ namespace Kinoteatr_bilet
                 try
                 {
                     client.Send(message);
+                    Environment.Exit(0);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
+
                 }
+
             }
             else
             {
